@@ -1,4 +1,4 @@
-# Kotlin GUI Starter - Basic UI
+# Kotlin GUI Colour Picker
 
-A starter project for a very simple Kotlin GUI app using Swing and FlatLAF
+A simple app with a Swing GUI that allows a colour to be created
 
