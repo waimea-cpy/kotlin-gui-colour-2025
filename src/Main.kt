@@ -145,42 +145,42 @@ class MainWindow : JFrame(), ActionListener, KeyListener {
         redUpButton = JButton("▲")
         redUpButton.bounds = Rectangle(220, 20, 30, 30)
         redUpButton.font = defaultFont
-        redUpButton.background = Color.RED
+        redUpButton.foreground = Color.RED
         redUpButton.addActionListener(this)     // Handle any clicks
         add(redUpButton)
 
         redDownButton = JButton("▼")
         redDownButton.bounds = Rectangle(220, 60, 30, 30)
         redDownButton.font = defaultFont
-        redDownButton.background = Color.RED
+        redDownButton.foreground = Color.RED
         redDownButton.addActionListener(this)     // Handle any clicks
         add(redDownButton)
 
         greenUpButton = JButton("▲")
         greenUpButton.bounds = Rectangle(220, 120, 30, 30)
         greenUpButton.font = defaultFont
-        greenUpButton.background = Color.GREEN
+        greenUpButton.foreground = Color.GREEN
         greenUpButton.addActionListener(this)     // Handle any clicks
         add(greenUpButton)
 
         greenDownButton = JButton("▼")
         greenDownButton.bounds = Rectangle(220, 160, 30, 30)
         greenDownButton.font = defaultFont
-        greenDownButton.background = Color.GREEN
+        greenDownButton.foreground = Color.GREEN
         greenDownButton.addActionListener(this)     // Handle any clicks
         add(greenDownButton)
 
         blueUpButton = JButton("▲")
         blueUpButton.bounds = Rectangle(220, 220, 30, 30)
         blueUpButton.font = defaultFont
-        blueUpButton.background = Color.BLUE
+        blueUpButton.foreground = Color.BLUE
         blueUpButton.addActionListener(this)     // Handle any clicks
         add(blueUpButton)
 
         blueDownButton = JButton("▼")
         blueDownButton.bounds = Rectangle(220, 260, 30, 30)
         blueDownButton.font = defaultFont
-        blueDownButton.background = Color.BLUE
+        blueDownButton.foreground = Color.BLUE
         blueDownButton.addActionListener(this)     // Handle any clicks
         add(blueDownButton)
 
